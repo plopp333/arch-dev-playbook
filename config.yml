@@ -1,0 +1,10 @@
+---
+downloads: ~/.ansible-downloads/
+
+dotfiles_repo: httpy://github.com/plopp333/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_files:
+  - .vimrc
+  - .vimrc.plug
+  - .zshrc
