@@ -10,3 +10,8 @@ dotfiles_files:
   - .vimrc
   - .vimrc.plug
   - .zshrc
+
+pacman_installed_packages:
+  - git
+pacman_uninstalled_packages: []
+
