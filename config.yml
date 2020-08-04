@@ -2,9 +2,10 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: true
+configure_i3: true
 
 dotfiles_repo: git@github.com:plopp333/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_accept_hostkey: false
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .alacritty.yml
@@ -16,12 +17,18 @@ dotfiles_files:
   - .zshrc
 
 pacman_installed_packages:
+  - betterlockscreen
   - firefox
   - fzf
   - git
+  - i3-wm
+  - rofi
   - signal-desktop
   - thunderbird
   - vim
   - zsh
 pacman_uninstalled_packages: []
 
+yay_installed_packages:
+  - polybar-git
+  - nerd-fonts-complete

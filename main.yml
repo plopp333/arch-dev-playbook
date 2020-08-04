@@ -8,8 +8,12 @@
   roles:
     - role: geerlingguy.dotfiles
       when: configure_dotfiles
+    - role: plopp333.pacman
+      tags: ["pacman"]
+    - role: plopp333.i3
+      when: configure_i3
+      tags: ["i3"]
 
   tasks:
     - include_tasks: tasks/ansible-setup.yml
-    - include_tasks: tasks/pacman.yml
 
