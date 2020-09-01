@@ -17,7 +17,6 @@ dotfiles_files:
   - .zshrc
 
 pacman_installed_packages:
-  - betterlockscreen
   - firefox
   - fzf
   - git
@@ -26,9 +25,11 @@ pacman_installed_packages:
   - signal-desktop
   - thunderbird
   - vim
+  - xbindkeys
   - zsh
 pacman_uninstalled_packages: []
 
 yay_installed_packages:
   - polybar-git
   - nerd-fonts-complete
+  - spotify
