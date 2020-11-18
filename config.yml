@@ -21,6 +21,7 @@ pacman_installed_packages:
   - fzf
   - git
   - i3-wm
+  - playerctl
   - rofi
   - signal-desktop
   - thunderbird
