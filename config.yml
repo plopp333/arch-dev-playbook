@@ -17,10 +17,12 @@ dotfiles_files:
   - .zshrc
 
 pacman_installed_packages:
+  - code
   - firefox
   - fzf
   - git
   - i3-wm
+  - openvpn
   - playerctl
   - rofi
   - signal-desktop
@@ -31,6 +33,7 @@ pacman_installed_packages:
 pacman_uninstalled_packages: []
 
 yay_installed_packages:
+  - bitwarden-cli-bin
   - polybar-git
   - nerd-fonts-complete
   - spotify
