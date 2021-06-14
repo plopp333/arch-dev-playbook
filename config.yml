@@ -3,8 +3,9 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: true
 configure_i3: true
+i3_config_repo: https://github.com/plopp333/config-i3.git
 
-dotfiles_repo: git@github.com:plopp333/dotfiles.git
+dotfiles_repo: https://github.com/plopp333/dotfiles.git
 dotfiles_repo_accept_hostkey: false
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -17,20 +18,26 @@ dotfiles_files:
   - .zshrc
 
 pacman_installed_packages:
+  - code
   - firefox
   - fzf
   - git
   - i3-wm
+  - npm
   - playerctl
   - rofi
   - signal-desktop
   - thunderbird
   - vim
   - xbindkeys
+  - xdotools
   - zsh
 pacman_uninstalled_packages: []
 
 yay_installed_packages:
+  - bitwarden-cli-bin
   - polybar-git
   - nerd-fonts-complete
+  - rbw
+  - rbw-rofi
   - spotify
