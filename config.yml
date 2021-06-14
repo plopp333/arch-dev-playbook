@@ -24,6 +24,7 @@ pacman_installed_packages:
   - git
   - i3-wm
   - npm
+  - openvpn
   - playerctl
   - rofi
   - signal-desktop
